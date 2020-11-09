@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Courier New";
+    color: black;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+
+}
+.data{
+    background-color: transparent;
+    padding: 10px 20px;
+    display: flex;
+    margin-right: 70px;
+}
+h1{
+    margin-left: 120px;
+    font-size: 35px;
+}

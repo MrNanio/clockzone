@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<link th:href="@{style.css}" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Aktualny czas</title>
+    <meta http-equiv="refresh" content="30">
+</head>
+<body>
+<div class="data">
+    <h1>SYDNEY NEWYORK LUBLIN</h1>
+</div>
+
+
+<div class="data">
+    <td th:text="${sydney}"></td>
+    <td th:text="${ny}"></td>
+    <td th:text="${warsaw}"></td>
+</div>
+
+
+
+</body>
+</html>
